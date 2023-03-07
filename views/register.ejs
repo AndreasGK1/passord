@@ -1,0 +1,23 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="./js/script.js" type="text/javascript" defer></script>
+  </head>
+  <body>
+    <h1>Registrer deg</h1>
+    <form action="http://localhost:3000/register" method="POST">
+      <label for="epost">Epost</label>
+      <input class="epost" type="email" id="epost" name="epost" />
+      <br />
+      <label for="passord">Passord</label>
+      <input id="passord1" class="passord" type="password" name="passord1" />
+      <br />
+      <label for="passord2">Gjenta passord</label>
+      <input id="passord2" class="passord2" type="password" name="passord2" />
+      <button type="submit">Registrer</button>
+    </form>
+  </body>
+</html>

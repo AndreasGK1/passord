@@ -1,0 +1,27 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    
+
+    <script src="../js/script.js" defer></script>
+  </head>
+  <body>
+    <h1>Logg inn</h1>
+    <form action="http://localhost:3000/logIn" method="POST">
+      <label for="epost">Epost</label>
+      <input id="epost-input" class="epost" type="email" name="epost" />
+      <br />
+      <label for="passord">Passord</label>
+      <input id="passord-input" class="passord" type="password" name="passord"/>
+      <br />
+
+      <button>Logg inn</button>
+    </form>
+    <a href="glemt">glemt passord?</a>
+    <a href="register">ny bruker</a>
+  </body>
+</html>
